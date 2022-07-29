@@ -3,9 +3,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-    text-align: center;
-}
-p {
-    text-align: center;
+.main-text {
+    position: relative;
+    text-align: left;
 }
