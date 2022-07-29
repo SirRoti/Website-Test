@@ -1,12 +1,30 @@
 body {
-    background-color: dimgrey;
+    background-color: dimgray;
     color: white;
     font-family: Cascadia Code;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: bisque;
+}
+hr {
+    color: white;
+    width: 80%;
 }
 .main-text {
     position: relative;
     text-align: center;
 }
-.main-link {
-    color: white;
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.main-top-links {
+    font-weight: 400;
+    font-size: large;
 }
