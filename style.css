@@ -40,3 +40,36 @@ hr {
     margin-left: 5px;
     margin-right: 5px;
 }
+.main-lower {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: gray;
+}
+.main-lower-programming {
+    margin-right: 300px;
+    color: white;
+    position: relative;
+}
+.main-lower-programming:hover{
+    color: bisque;
+}
+.main-lower-programming-text {
+    position: absolute;
+    top: 35%;
+    right: 28%;
+    font-size: larger;
+}
+.main-lower-minecraft {
+    color: white;
+    position: relative;
+}
+.main-lower-minecraft:hover{
+    color: bisque;
+}
+.main-lower-minecraft-text {
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    font-size: larger;
+}
