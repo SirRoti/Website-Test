@@ -1,9 +1,12 @@
 body {
     background-color: dimgrey;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cascadia Code;
 }
 .main-text {
     position: relative;
-    text-align: left;
+    text-align: center;
+}
+.main-link {
+    color: white;
 }
