@@ -7,6 +7,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # checks for .html ext
 RewriteCond %{REQUEST_FILENAME}\.html -f
 
-
 # show page with .html ext
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+
+# 404 Detect
+ErrorDocument 404 /404.html
