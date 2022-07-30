@@ -82,3 +82,13 @@ hr {
     right: 0%;
     width: 100%;
 }
+.not_found-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6%;
+    align-items: center;
+}
+.not_found-text {
+    position: relative;
+    text-align: center;
+}
