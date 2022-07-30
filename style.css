@@ -21,7 +21,7 @@ hr {
 .main-top {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0.6%;
     align-items: center;
 }
 .main-top-links {
@@ -43,11 +43,14 @@ hr {
 .main-lower {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 1%;
     background-color: gray;
+    position: absolute;
+    left: 0;
+    width: 98%;
 }
 .main-lower-programming {
-    margin-right: 300px;
+    margin-right: 18%;
     color: white;
     position: relative;
 }
@@ -72,4 +75,10 @@ hr {
     top: 35%;
     right: 30%;
     font-size: larger;
+}
+.main-footer {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    width: 100%;
 }
