@@ -3,7 +3,7 @@ window.onload = function () { discord_copy_text_out(); }
 function discord_copy_profile() {
     navigator.clipboard.writeText('SirRoti#8706');
     var help_text = document.getElementById("copy_help_text")
-    help_text.style.color = "#319911";
+    help_text.style.color = "#3ec412";
     globalThis.timer = setTimeout(function () {
         var help_text = document.getElementById("copy_help_text")
         help_text.style.color = "#ffffff";
