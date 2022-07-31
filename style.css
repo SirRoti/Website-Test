@@ -119,16 +119,23 @@ hr {
 .discord-middle-text-profile {
     font-size: larger;
     position: absolute;
-    top: 10%;
+    top: 13%;
+    left: 22.5%;
 }
 .discord-middle-text-subtext {
     font-size: larger;
     position: absolute;
-    top: 8%;
-    left: 17.6%;
+    top: 11%;
+    left: 20.1%;
 }
 .discord-middle-text-copy {
     position: absolute;
-    top: 21%;
-    left: 23%;
+    top: 24%;
+    left: 25.5%;
+}
+.discord-middle-text-server {
+    font-size: larger;
+    position: absolute;
+    left: 10%;
+    text-align: center;
 }
