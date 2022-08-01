@@ -1,4 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: dimgray;
     color: white;
@@ -134,4 +137,71 @@ hr {
     position: absolute;
     left: 10%;
     text-align: center;
+}
+.programming-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6%;
+    align-items: center;
+}
+.programming-s1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.programming-s1-text {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: larger;
+}
+.programming-s1-img img{
+    margin-bottom: 3%;
+    background-color: gray;
+    padding: 3%;
+    border-radius: 10px 10px 10px 10px;
+    background-size: cover;
+}
+.programming-s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.programming-s2-text {
+    text-align: center;
+    font-size: larger;
+}
+.programming-s2-img img{
+    margin-bottom: 3%;
+    background-color: gray;
+    padding: 3%;
+    border-radius: 10px 10px 10px 10px;
+    background-size: cover;
+}
+.programming-s1-button {
+    position: absolute;
+    left: 2.3%;
+    color: white;
+}
+.programming-s1-button-img {
+    padding: 3%;
+    background-color: gray;
+}
+.programming-s1-button-img:hover{
+    background-color: bisque;
+}
+.programming-s2-button {
+    position: absolute;
+    left: -6.5%;
+    color: white;
+    rotate: 180deg;
+}
+.programming-s2-button-img {
+    padding: 3%;
+    background-color: gray;
+}
+.programming-s2-button-img:hover{
+    background-color: bisque;
 }
