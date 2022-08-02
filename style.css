@@ -202,15 +202,14 @@ hr {
 .programming-s1-button-img:hover{
     background-color: bisque;
 }
-.programming-s2-button {
-    position: absolute;
-    right: 2.3%;
-    color: white;
-    rotate: 180deg;
-}
 .programming-s2-button-img {
-    padding: 3%;
+    position: relative;
+    right: -95%;
+    color: white;
+    width: 2.5%;
+    padding: 0.3%;
     background-color: gray;
+    margin-bottom: 1.4%;
 }
 .programming-s2-button-img:hover{
     background-color: bisque;
