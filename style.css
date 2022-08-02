@@ -151,7 +151,7 @@ hr {
     position: relative;
 }
 .programming-s1-text {
-    margin-right: 10%;
+    margin-right: -6%;
     margin-left: 10%;
     text-align: center;
     font-size: larger;
@@ -162,6 +162,16 @@ hr {
     padding: 3%;
     border-radius: 10px 10px 10px 10px;
     background-size: cover;
+}
+.programming-s1-img {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    right: 0%;
+}
+.programming-s1-img-p1 {
+    margin-right: -20%;
 }
 .programming-s2 {
     display: flex;
@@ -194,7 +204,7 @@ hr {
 }
 .programming-s2-button {
     position: absolute;
-    left: -6.5%;
+    right: 2.3%;
     color: white;
     rotate: 180deg;
 }
