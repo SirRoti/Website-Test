@@ -276,3 +276,49 @@ hr {
 .programming-s3-img-p1 {
     margin-right: -20%;
 }
+.minecraft-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6%;
+    align-items: center;
+}
+.minecraft-middle {
+    display: flex;
+    justify-content: center;
+    background-image: url("img/kilux_banner.png");
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.minecraft-middle-text {
+    font-size: larger;
+    white-space: pre-line;
+    text-align: center;
+}
+.minecraft-middle-img-cont {
+    margin-left: 10%;
+    margin-top: 9%;
+    margin-bottom: 8.8%;
+    width: 8%;
+}
+.minecraft-buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 4%;
+    width: 21%;
+    left: 38%;
+    font-size: 180%;
+    padding: 1.5%;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid white;
+}
+.minecraft-buttons a{
+    padding: 0.5%;
+    border-radius: 5px 5px 5px 5px;
+}
+.minecraft-middle-img {
+    background-color: dimgrey;
+    border-radius: 20px 20px 20px 20px;
+}
