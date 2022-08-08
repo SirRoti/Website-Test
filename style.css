@@ -77,10 +77,8 @@ hr {
     color: bisque;
 }
 .main-footer {
-    position: absolute;
-    top: 90%;
-    right: 0%;
     width: 100%;
+    text-align: center;
 }
 .not_found-top {
     display: flex;

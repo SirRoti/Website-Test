@@ -2,6 +2,7 @@ window.onload = function () {
     if (document.title.startsWith("Home")) {
         main_middle_programming_out();
         main_middle_minecraft_out();
+        main_inc_views();
     }
     else if (document.title.startsWith("Discord")) { discord_copy_text_out(); }
     else if (document.title.startsWith("Minecraft")) {
@@ -31,6 +32,15 @@ function discord_copy_text_out() {
     document.getElementById("copy_help_text").style.opacity = 0;
 }
 
+function main_inc_views() {
+    var views;
+    if (!localStorage.getItem("views")) { views = 0 }
+    else { views = localStorage.getItem("views") }
+
+    localStorage.setItem("views", parseInt(views)+1)
+
+    document.getElementById("main-footer").textContent = "This Page has been Viewed " + views + " times"
+}
 function main_middle_programming() {
     document.getElementById("main-text-programing").style.opacity = 1;
     document.getElementById("main-img-programing").style.color = "bisque";
