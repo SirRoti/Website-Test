@@ -2,7 +2,7 @@ window.onload = function () {
     if (document.title.startsWith("Home")) {
         main_middle_programming_out();
         main_middle_minecraft_out();
-        main_inc_views();
+        //main_inc_views();
     }
     else if (document.title.startsWith("Discord")) { discord_copy_text_out(); }
     else if (document.title.startsWith("Minecraft")) {
