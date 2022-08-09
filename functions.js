@@ -68,7 +68,7 @@ function minecraft_buttons_team_ente() {
     document.getElementById("minecraft-button-kilux").style.backgroundColor = "dimgray"
     document.getElementById("miencraft-button-team_ente").style.backgroundColor = "#4f4d4d"
 
-    minecraft_change_element(["Team-Ente.de is an open Minecraft Server that i own with some friends.\nWe dont have a big main server, but host different minecraft events (in german).\nYou can join the event server by clicking on the Server Logo.", "img/team-ente.png", "img/team-ente_banner.png", "https://discord.gg/CaJ3BxnnBh"])
+    minecraft_change_element(["Team-Ente.de is an open Minecraft Server that I own with some friends.\nWe dont have a big main server, but host different minecraft events (in german).\nYou can join the event server by clicking on the Server Logo.", "img/team-ente.png", "img/team-ente_banner.png", "https://discord.gg/CaJ3BxnnBh"])
 }
 function minecraft_change_element (elements) {
     var opacity = 50
