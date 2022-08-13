@@ -350,4 +350,18 @@ hr {
     .programming-s3-text { margin-right: 5%; }
     .programming-s3-img img{ width: 75%; }
     .programming-s3-img-p1 { margin-right: -6%; }
+    .minecraft-middle {
+        margin-top: -10%;
+        height: 65%;
+    }
+    .minecraft-middle-text {
+        width: 50%;
+        margin-left: -20%;
+    }
+    .minecraft-buttons {
+        position: absolute;
+        bottom: 2%;
+        border: 0;
+    }
+    .minecraft-middle-img-cont img { width: 300%; }
 }
