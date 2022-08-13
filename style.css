@@ -320,3 +320,20 @@ hr {
     background-color: dimgrey;
     border-radius: 20px 20px 20px 20px;
 }
+
+@media screen and (max-width: 800px) {
+    .main-lower { margin-top: -27%;}
+    .main-text { margin-top: -27%; }
+    .main-lower-programming {
+        margin-right: 30%;
+        margin-left: 5%;
+    }
+    .main-lower-programming img {
+        width: 230%;
+        height: auto;
+    }
+    .main-lower-minecraft img {
+        width: 83%;
+        height: auto;
+    }
+}
