@@ -364,4 +364,27 @@ hr {
         border: 0;
     }
     .minecraft-middle-img-cont img { width: 300%; }
+    .discord-middle-iframe {
+        position: absolute;
+        top: 250px;
+    }
+    .discord-middle-iframe-this {
+        width: 100%;
+        height: 400px;
+    }
+    .discord-middle-text {
+        position: absolute;
+        text-align: center;
+        top: -80px;
+        right: -120px;
+        width: 100%;
+    }
+    .discord-middle-text-profile {
+        top: 30%;
+        left: 27%;
+    }
+    .discord-middle-text-server {
+        margin-top: 30px;
+        left: 21%;
+    }
 }
